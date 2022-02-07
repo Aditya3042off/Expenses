@@ -1,0 +1,58 @@
+.login-container {
+    padding: 1rem;
+    background-color: white;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    margin-top: 10rem;
+}
+
+.input-container {
+    margin-bottom: 1.5rem;
+    font-size: 30px;
+}
+
+.login-form input {
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 40rem;
+    max-width: 100%;
+}
+
+.login-form label {
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.button-container button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+
+.button-container button:hover,
+.button-container button:active {
+    background-color: #510674;
+    border-color: #510674;
+}
+
+.invalid p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    color: #aa0b20;
+}
+
+.invalid label {
+    color: #ca3e51;
+}
+
+.invalid input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+}
